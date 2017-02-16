@@ -10,14 +10,14 @@ using namespace sf;
 class Ball
 {
 private:
-
     float dx; // speed along the x coordinate
     float dy; // speed along the y coordinate
     Image ballImage;
     Texture ballTexture;
     Sprite ballSprite;
+    
 public:
-
+    
     /**
     * Default Constructor
     * set the default setting for the ball
