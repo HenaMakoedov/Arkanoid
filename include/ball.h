@@ -2,8 +2,6 @@
 #define BALL_H_INCLUDED
 
 #include <SFML/Graphics.hpp>
-#include "platform.h"
-#include "tilemap.h"
 
 using namespace sf;
 
