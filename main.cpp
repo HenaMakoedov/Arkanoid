@@ -18,10 +18,7 @@
 #include "include/tilemap.h"
 #include "include/gameObjects.h"
 
-
-
 using namespace sf;
-
 
 int main()
 {
@@ -53,22 +50,19 @@ int main()
 	    clock.restart();
 	    time /= 250;
 
-        //event in the game mechanic
-		Event event;
-
-		while (window.pollEvent(event))
-		{
-			if (event.type == Event::Closed)
-				window.close();
-		}
+            //event in the game mechanic
+	    Event event;
+	    while (window.pollEvent(event))
+	    {
+		if (event.type == Event::Closed)
+			window.close();
+	    }
 		window.clear();
 
-        //update game objects
-        container->update(window, time);
+        	//update game objects
+        	container->update(window, time);
 
-
-        window.display();
-
+       		window.display();
 	}
 
 	//free memory
