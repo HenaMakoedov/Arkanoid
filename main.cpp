@@ -28,9 +28,9 @@ int main()
     srand(time(NULL));
 
     //create and tune the window
-	RenderWindow window(sf::VideoMode(600,600), "Arkanoid");
-	window.setPosition(Vector2i(300,100));
-	window.setFramerateLimit(60);
+    RenderWindow window(sf::VideoMode(600,600), "Arkanoid");
+    window.setPosition(Vector2i(300,100));
+    window.setFramerateLimit(60);
 
     //add the game objects
     BackGround* backGround = new BackGround();
@@ -38,7 +38,6 @@ int main()
     TileMap* tileMap = new TileMap();
     Ball* ball = new Ball();
     GameObjects* container = new GameObjects(ball, plt, backGround, tileMap);
-
 
 
     //clock ^_^
@@ -74,8 +73,8 @@ int main()
 
 	//free memory
 	delete container;
-    delete ball;
-    delete tileMap;
+        delete ball;
+        delete tileMap;
 	delete plt;
 	delete backGround;
 
