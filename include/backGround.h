@@ -2,8 +2,8 @@
 #define BACKGROUND_H_INCLUDED
 
 #include <SFML/Graphics.hpp>
-using namespace sf;
 
+using namespace sf;
 
 class BackGround
 {
@@ -11,9 +11,8 @@ private:
     Image backGroundImage;
     Texture backGroundTexture;
     Sprite backGroundSprite;
-
 public:
-
+    
     /**
     * default constructor
     */
