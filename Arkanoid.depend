@@ -1,0 +1,94 @@
+# depslib dependency file v1.0
+1487188612 source:/home/gendos/Arkanoid/main.cpp
+	<SFML/Graphics.hpp>
+	<cmath>
+	<ctime>
+	"include/ball.h"
+	"include/platform.h"
+	"include/global.h"
+	"include/backGround.h"
+	"include/tile.h"
+	"include/tilemap.h"
+	"include/gameObjects.h"
+
+1486822572 /home/gendos/Arkanoid/game_objects/Platform.h
+	<SFML/Graphics.hpp>
+
+1486822574 source:/home/gendos/Arkanoid/game_objects/Platform.cpp
+	<SFML/Graphics.hpp>
+	"Platform.h"
+	<iostream>
+
+1486821659 source:/home/gendos/Arkanoid/game_objects/ball.cpp
+	<SFML/Graphics.hpp>
+	<iostream>
+	<cmath>
+	"ball.h"
+
+1486822358 /home/gendos/Arkanoid/game_objects/ball.h
+	<SFML/Graphics.hpp>
+	"Platform.h"
+
+1486836407 source:/home/gendos/Arkanoid/game_objects/tile.cpp
+	<SFML/Graphics.hpp>
+
+1487185862 /home/gendos/Arkanoid/include/ball.h
+	<SFML/Graphics.hpp>
+	"platform.h"
+	"tilemap.h"
+
+1486850546 /home/gendos/Arkanoid/include/platform.h
+	<SFML/Graphics.hpp>
+
+1487186010 source:/home/gendos/Arkanoid/source/ball.cpp
+	<SFML/Graphics.hpp>
+	<iostream>
+	<cmath>
+	<vector>
+	"../include/ball.h"
+
+1487186032 source:/home/gendos/Arkanoid/source/platform.cpp
+	<SFML/Graphics.hpp>
+	"../include/platform.h"
+
+1487186198 /home/gendos/Arkanoid/include/global.h
+	<cstring>
+
+1486851073 /home/gendos/Arkanoid/include/backGround.h
+	<SFML/Graphics.hpp>
+
+1487187451 source:/home/gendos/Arkanoid/source/backGround.cpp
+	<SFML/Graphics.hpp>
+	"../include/backGround.h"
+
+1487186054 source:/home/gendos/Arkanoid/source/tile.cpp
+	<SFML/Graphics.hpp>
+	"../include/tile.h"
+
+1487185690 /home/gendos/Arkanoid/include/tile.h
+	<SFML/Graphics.hpp>
+
+1487187104 source:/home/gendos/Arkanoid/source/tilemap.cpp
+	<SFML/Graphics.hpp>
+	<vector>
+	<iostream>
+	"../include/tilemap.h"
+	<cmath>
+
+1487186556 /home/gendos/Arkanoid/include/tilemap.h
+	<SFML/Graphics.hpp>
+	<vector>
+	"tile.h"
+
+1487188509 source:/home/gendos/Arkanoid/source/gameObjects.cpp
+	"../include/gameObjects.h"
+	<SFML/Graphics.hpp>
+	<cmath>
+
+1487187930 /home/gendos/Arkanoid/include/gameObjects.h
+	<SFML/Graphics.hpp>
+	"ball.h"
+	"platform.h"
+	"tilemap.h"
+	"backGround.h"
+
