@@ -16,8 +16,8 @@ private:
 
     // vector tiles
     vector<Tile*> tileList;
+    
 public:
-
     /**
     * Default Constructor
     * set the default setting for the tile map
