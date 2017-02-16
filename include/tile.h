@@ -34,7 +34,4 @@ public:
     void update(RenderWindow&);
 };
 
-
-
-
 #endif // TILE_H_INCLUDED
