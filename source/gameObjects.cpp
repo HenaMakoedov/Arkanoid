@@ -7,7 +7,7 @@ using namespace sf;
 GameObjects::GameObjects(Ball* ptrBall, Platform* ptrPlatform,
                          BackGround* ptrBackGround, TileMap* ptrTileMap)
 {
-    // initialize th    e fields
+    // initialize the fields
     this->ptrBall = ptrBall;
     this->ptrPlatform = ptrPlatform;
     this->ptrTileMap = ptrTileMap;
